@@ -426,4 +426,8 @@ footer div .copyright-text {
   .news-letter-bg {
     background-position: top left;
   }
+
+  footer div > p {
+    padding: 0 10% 0 10%;
+  }
 }
