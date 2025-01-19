@@ -90,7 +90,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 70px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 .feature-text {
@@ -106,7 +106,7 @@ p {
 }
 
 .feature-card {
-  height: 600px;
+  /* height: 600px; */
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -114,9 +114,8 @@ p {
 }
 
 .feature-card > div > div {
-  height: 400px;
-  /*width: calc(100% / 3);
-  */
+  height: 450px;
+  /* width: calc(100% / 3); */
 
   border-radius: 50% 50% 0 0;
   -webkit-border-radius: 50% 50% 0 0;
@@ -206,10 +205,11 @@ p {
 .sale-text p {
   padding: 0 200px 0 0;
 }
-
+/* insta album starts here */
 .images {
   display: flex;
   gap: 24px;
+  justify-content: space-between;
 }
 
 .images img {
@@ -240,10 +240,12 @@ p {
   position: relative;
   z-index: 1;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .news-letter-bg {
   background-image: url(asset/Rectangle\ 9.png);
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 
